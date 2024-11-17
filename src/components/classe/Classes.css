@@ -1,0 +1,63 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.dashboard-content {
+  flex-grow: 1; 
+ 
+  padding: 40px; 
+  background-color: #f4f7fa; 
+  
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  overflow-y: auto; 
+}
+
+.dashboard-content h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-container .MuiFormControl-root, 
+.input-container .MuiTextField-root {
+  flex: 1 1 45%; /* Prend 45% de la largeur du conteneur */
+  min-width: 200px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button.primary {
+  background-color: #ffc107; /* Couleur du bouton Ajouter */
+  color: #fff;
+}
+
+button.reset {
+  background-color: #0d6efd; /* Couleur du bouton Reset */
+  color: #fff;
+  margin-left: 10px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

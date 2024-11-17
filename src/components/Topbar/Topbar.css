@@ -1,0 +1,67 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 1680px;
+}
+
+.topbar .search-bar {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+.topbar .search-bar input[type="text"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.topbar .user-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar .user-section .profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.topbar .user-section .notifications {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar .user-section img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topbar .notification-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.topbar .notification-badge span {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff5252;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 10px;
+}

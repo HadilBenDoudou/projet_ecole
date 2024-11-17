@@ -1,0 +1,67 @@
+.add-subject-form {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Augmenté pour une largeur plus grande */
+    margin: 40px auto;
+  }
+  
+  .add-subject-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px; /* Augmenté pour plus de taille */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Plus grand pour plus de visibilité */
+    width: 100%;
+    margin-bottom: 30px; /* Plus d'espace sous le bouton */
+    transition: background-color 0.3s;
+  }
+  
+  .add-subject-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-subject-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Plus d'espace entre les champs */
+  }
+  
+  .add-subject-form form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-subject-form form label {
+    font-size: 16px; /* Taille de la police augmentée */
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .add-subject-form form input,
+  .add-subject-form form select {
+    padding: 15px; /* Plus de padding pour des champs plus grands */
+    font-size: 18px; /* Augmenté pour plus de lisibilité */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .add-subject-form form input:focus,
+  .add-subject-form form select:focus {
+    border-color: #4CAF50;
+  }
+  
+  .add-subject-form form button[type="submit"] {
+    background-color: #007BFF;
+  }
+  
+  .add-subject-form form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,130 @@
+/* ViewSubjects.css */
+
+.view-subjects {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px; /* Augmenter la largeur maximale */
+    margin: 40px auto;
+    padding: 30px; /* Ajouter un padding plus large */
+    background-color: #f4f7f6;
+    border-radius: 15px; /* Augmenter le rayon des bords */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Ombre plus prononcée */
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 36px; /* Augmenter la taille du titre */
+    color: #2c3e50;
+    margin-bottom: 40px; /* Ajouter plus d'espace en dessous */
+  }
+  
+  .levels {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Augmenter l'espacement entre les boutons */
+    margin-bottom: 40px; /* Ajouter plus d'espace sous les boutons */
+  }
+  
+  .level-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 16px 35px; /* Augmenter la taille des boutons */
+    border: none;
+    border-radius: 12px; /* Arrondir davantage les boutons */
+    cursor: pointer;
+    font-size: 24px; /* Augmenter la taille du texte dans les boutons */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .level-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .loading-message {
+    font-size: 22px; /* Augmenter la taille du message de chargement */
+    color: #7f8c8d;
+    margin-top: 30px; /* Ajouter de l'espace en haut */
+  }
+  
+  .subjects {
+    margin-top: 50px; /* Augmenter l'espace au-dessus de la liste des matières */
+  }
+  
+  .subject-title {
+    font-size: 28px; /* Augmenter la taille du titre des matières */
+    color: #2c3e50;
+    margin-bottom: 30px; /* Ajouter plus d'espace sous le titre */
+  }
+  
+  .subject-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subject-item {
+    background-color: #ffffff;
+    padding: 18px; /* Augmenter le padding des éléments de la liste */
+    margin-bottom: 15px; /* Augmenter l'espacement entre les éléments */
+    border-radius: 12px; /* Arrondir les éléments de la liste */
+    color: #34495e;
+    font-size: 22px; /* Augmenter la taille du texte des matières */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subject-item:hover {
+    transform: translateY(-8px); /* Augmenter l'effet de déplacement lors du survol */
+    background-color: #ecf0f1;
+  }
+  
+  .no-subjects {
+    font-size: 22px; /* Augmenter la taille du texte lorsqu'il n'y a pas de matières */
+    color: #95a5a6;
+  }
+  
+  @media (max-width: 1024px) {
+    .view-subjects {
+      padding: 20px;
+    }
+  
+    .page-title {
+      font-size: 32px;
+    }
+  
+    .level-btn {
+      padding: 14px 30px;
+      font-size: 22px;
+    }
+  
+    .subject-title {
+      font-size: 24px;
+    }
+  
+    .subject-item {
+      padding: 16px;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .levels {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .level-btn {
+      padding: 12px 25px;
+      font-size: 20px;
+    }
+  
+    .subject-title {
+      font-size: 22px;
+    }
+  
+    .subject-item {
+      padding: 14px;
+      font-size: 18px;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.attendance-sheet table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-sheet th,
+  .attendance-sheet td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .attendance-sheet th {
+    background-color: #f2f2f2;
+  }
+  
+  .present {
+    color: green;
+  }
+  
+  .absent {
+    color: red;
+  }
+  
+  .empty {
+    color: gray;
+  }
